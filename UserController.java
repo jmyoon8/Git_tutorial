@@ -12,7 +12,7 @@ public class UserController {
 	@RequestMapping("/user/insert.do")
 	public String login(){
 		
-		return"/user/insert";
+		return"/user/insereet";
 	}
 
 
