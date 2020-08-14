@@ -8,5 +8,12 @@ public class UserController {
 
 		return "/user/login";
 	}
+	//회원추가 페이지로이동
+	@RequestMapping("/user/insert.do")
+	public String login(){
+		
+		return"/user/insert";
+	}
+
 
 }  
