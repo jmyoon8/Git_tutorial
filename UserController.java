@@ -12,7 +12,14 @@ public class UserController {
 	@RequestMapping("/user/insert.do")
 	public String login(){
 		
-		return"/user/insereet";
+		return"/user/insert";
+	}
+
+	//회원정보 수정 페이지로 이동
+	@RequestMapping("/user/update.do")
+	public String update(){
+		
+		return"/user/update";
 	}
 
 
