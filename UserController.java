@@ -22,5 +22,15 @@ public class UserController {
 		return"/user/update";
 	}
 
+	//master 브렌치에 주석추가
+	//회원탈퇴시 세션 삭제
+
+	//회원정보 삭제 페이지 이동
+	@RequestMapping("/user/delete.do")
+	public String delete(){
+		
+		return"/user/delete";
+	}
+	
 
 }  
