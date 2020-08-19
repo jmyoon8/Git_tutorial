@@ -21,7 +21,6 @@ public class UserController {
 		
 		return"/user/update";
 	}
-
 	//master 브렌치에 주석추가
 	//회원탈퇴시 세션 삭제
 
