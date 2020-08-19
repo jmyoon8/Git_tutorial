@@ -21,6 +21,12 @@ public class UserController {
 		
 		return"/user/update";
 	}
-
+	//회원정보 삭제 페이지 이동
+	@RequestMapping("/user/delete.do")
+	public String delete(){
+		
+		return"/user/delete";
+	}
+	
 
 }  
